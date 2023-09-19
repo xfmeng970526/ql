@@ -2,7 +2,9 @@
 /*
 项目-魔塔世界:http://mt.qunxiang.xyz:98/qr/308542
 
-
+cron: 7 6,20 * * *
+new Env('89-魔塔世界');
+项目名称：魔塔世界
 变量soy_mtsj_data
 
 抓包地址http://mtsj.elanetool.com 请求头上 Authorization 值
