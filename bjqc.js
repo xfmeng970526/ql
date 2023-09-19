@@ -10,7 +10,7 @@ https://api.smartservice.bjev.com.cn/gateway-api/v1/users/xxxxxxxxx
 
 重写：打开APP获取
 [task_local]
-#北京汽车
+new Env('33-爱海盐');
 58 0,9-22/4 * * * https://raw.githubusercontent.com/leafTheFish/DeathNote/main/bjqc.js, tag=北京汽车, enabled=true
 [rewrite_local]
 https://api.smartservice.bjev.com.cn/gateway-api/v1/app/userAppInfo url script-request-header https://raw.githubusercontent.com/leafTheFish/DeathNote/main/bjqc.js
@@ -18,7 +18,7 @@ https://api.smartservice.bjev.com.cn/gateway-api/v1/app/userAppInfo url script-r
 hostname = api.smartservice.bjev.com.cn
 
 定时：一天一两次
-cron: 45 7,20 * * *	
+cron: 45 8,20 * * *	
 
 const $ = new Env("北京汽车")
 */
