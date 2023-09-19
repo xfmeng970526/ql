@@ -16,11 +16,13 @@
 如果要跑，在wbtcCookie的对应账号后面加上#1，但是跑久了有可能触发滑块，需要自己去点一次，否则要被反撸矿石
 
 定时不跑小游戏就每天7点后跑5次，跑小游戏就每小时一次
-
+cron: 5 8,15 * * *
+new Env('12-58同城');
+项目名称：58同城
 V2P/圈叉：
 [task_local]
 #58同城
-7 * * * * https://raw.githubusercontent.com/leafxcy/JavaScript/main/58tc.js, tag=58同城, enabled=true
+https://raw.githubusercontent.com/leafxcy/JavaScript/main/58tc.js, tag=58同城, enabled=true
 [rewrite_local]
 https://magicisland.58.com/web/sign/getIndexSignInInfo url script-request-header https://raw.githubusercontent.com/leafxcy/JavaScript/main/58tc.js
 [MITM]
