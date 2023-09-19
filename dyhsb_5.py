@@ -3,8 +3,11 @@
 # 手动签到一次 别开着抓包
 # 然后开着抓包进去 开一次宝箱，
 # 搜索 task_done/
-# 变量名 dyhsbdyhs,可以自己更改
+# 变量名 dyhsb,可以自己更改
 # 变量内容：url#cookie#x-argus#x-ladon
+# cron: 0 2-23/2 * * *
+# new Env('109-抖音火山版-5');
+# 项目名称：抖音火山版-安卓
 import os
 import random
 import re
