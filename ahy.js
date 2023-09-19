@@ -1,10 +1,11 @@
 /*
+ cron: 25 2,17,21 * * *
+ new Env('85-爱海盐');
  APP：爱海盐
  功能：完成任务，获得积分
  抓包：https://vapp.tmuyun.com/ 任意-请求头中 x-session-id 或使用 手机号#密码 两者互不影响
  变量：ahyCookie='xxxx@12345678910#abcdefg '  多个账号用 @ 或者 换行 分割
  定时一天三次
- cron: 10 9,10,19 * * *
  */
  const $ = new Env('爱海盐')
  const notify = $.isNode() ? require('./sendNotify') : '';
