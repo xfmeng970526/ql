@@ -27,15 +27,15 @@
  脚本兼容: QuantumultX, Surge,Loon, JSBox, Node.js
  =================================Quantumultx=========================
  [task_local]
- #葫芦娃预约
- 30 8 * * * https://github.com/JDWXX/ql_all/blob/master/hlw/hlw.js, tag=葫芦娃预约, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+ #127-葫芦娃预约
+ 30 8 * * * https://github.com/JDWXX/ql_all/blob/master/hlw/hlw.js, tag=127-葫芦娃预约, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
  =================================Loon===================================
  [Script]
- cron "30 8 * * *" script-path=https://github.com/JDWXX/ql_all/blob/master/hlw/hlw.js,tag=葫芦娃预约
+ cron "30 8 * * *" script-path=https://github.com/JDWXX/ql_all/blob/master/hlw/hlw.js,tag=127-葫芦娃预约
  ===================================Surge================================
- 葫芦娃预约 = type=cron,cronexp="30 8 * * *",wake-system=1,timeout=3600,script-path=https://github.com/JDWXX/ql_all/blob/master/hlw/hlw.js
+ 127-葫芦娃预约= type=cron,cronexp="30 8 * * *",wake-system=1,timeout=3600,script-path=https://github.com/JDWXX/ql_all/blob/master/hlw/hlw.js
  ====================================小火箭=============================
- 葫芦娃预约 = type=cron,script-path=https://github.com/JDWXX/ql_all/blob/master/hlw/hlw.js, cronexpr="30 8 * * *", timeout=3600, enable=true
+ 127-葫芦娃预约 = type=cron,script-path=https://github.com/JDWXX/ql_all/blob/master/hlw/hlw.js, cronexpr="30 8 * * *", timeout=3600, enable=true
  cron: 30 8 * * *
  */
 const $ = new Env("葫芦娃预约");
