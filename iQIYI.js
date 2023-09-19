@@ -28,9 +28,11 @@ var barkServer = ''; //Bark APP 通知服务端地址(默认官方)
 /*********************
 QuantumultX 远程脚本配置:
 **********************
-[task_local]
+cron: 0 9 * * *
+new Env('2-爱奇艺会员签到K');
+项目名称：爱奇艺会员签到
 # 爱奇艺会员签到
-0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 [rewrite_local]
 # 获取Cookie
 ^https:\/\/passport\.iqiyi\.com\/apis\/user\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
