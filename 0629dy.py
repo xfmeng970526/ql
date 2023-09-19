@@ -1,4 +1,6 @@
 # coding=utf-8
+cron: * 37 0-23 * * *
+new Env('104-抖音极速版');
 # 06-29 脚本发布地址 https://pc.fenchuan8.com/#/index?forum=38406 qq群号115194038
 # 极速版-安卓
 # 抓包内容 逛街一次 抓包done/shopping_gold?mode=done
