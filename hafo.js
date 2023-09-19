@@ -3,6 +3,9 @@
 设置密码登录
 变量
 export hafohd = '账号&密码'
+cron: 18 11,22 * * *
+new Env('63-哈佛智家');
+项目名称：哈佛智家
 */
 const $ = new Env('哈佛智家');
 const axios = require('axios');
