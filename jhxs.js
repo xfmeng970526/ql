@@ -15,7 +15,9 @@ CK示例
 
 6331xxx#dedbf3adce9160563a67xxx#C837350D-21FD-4430-B4D4-xxxx
 */
-const $ = new Env('江湖小说');
+cron: 18 10,21 * * *
+new Env('27-江湖小说');
+项目名称：江湖小说
     let envSplitor = ['@', '\n'], ckName = 'JHXSCookie' 
     let httpResult, httpReq, httpResp , lw=60 , userList = [], userIdx = 0, userCount = 0 , _1=[...Array(lw)].map((a,_)=>_+1)
     let userCookie = ($.isNode() ? process.env[ckName] : $.getdata(ckName)) || '';
