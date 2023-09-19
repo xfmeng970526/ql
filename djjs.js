@@ -5,6 +5,7 @@
  变量：djjsCookie='xxxx@12345678910#abcdefg '  多个账号用 @ 或者 换行 分割
  定时一天三次
  cron: 15 8,10,19 * * *
+ new Env('86-多娇江山');
  */
  const $ = new Env('多娇江山')
  const notify = $.isNode() ? require('./sendNotify') : '';
