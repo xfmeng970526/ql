@@ -12,7 +12,6 @@ IOS/安卓: 今日头条极速版
 感谢原作者提供的脚本 https://raw.githubusercontent.com/leafxcy/JavaScript/main/jrttjsb.js
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 ============Quantumultx===============
-cron: 2 3,21 * * *
 new Env('4-今日头条极速版');
 项目名称：今日头条极速版
 https://github.com/JDWXX/ql_all/blob/master/qt/aqc/jrttjsb.js, tag=今日头条极速版, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png, enabled=true
