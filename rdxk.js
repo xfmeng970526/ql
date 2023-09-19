@@ -2,7 +2,9 @@
 APP:https://m.reduxingke.com/down/register.html?spread=262946&incode=NINGMENG
 域名:m.reduxingke.com  
 请求头Authori-zation:XXXXXX
-
+cron: 11 8,17 * * *
+new Env('90-热度星客');
+项目名称：热度星客
 export rdxkhd='XXXXXX'
 */
 
