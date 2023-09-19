@@ -1,4 +1,7 @@
 /*
+cron: 14 0,9,16,21 * * *
+new Env('77-长城炮');
+项目名称：长城炮
 长城炮
 扫码注册：https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ccp.png
 
@@ -12,8 +15,7 @@
 
 重写：
 [task_local]
-#长城炮
-14 0,9,16,21 * * * https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ccp.js, tag=长城炮, enabled=true
+https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ccp.js, tag=长城炮, enabled=true
 [rewrite_local]
 https://marketing-api.gwm.com.cn/api-u/v1/pickup/user/auth/loginForPwd url script-request-body https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ccp.js
 [MITM]
