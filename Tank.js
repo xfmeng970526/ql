@@ -1,4 +1,6 @@
 /**
+ * cron: 18 10,21 * * *
+ * new Env('118-坦克TANK');
  * 项目名称：坦克TANK
  * 项目地址：http://www.downxia.com/downinfo/375213.html
  * cron 0 0 0/2 * * *  Tank.js
