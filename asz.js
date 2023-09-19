@@ -1,13 +1,15 @@
+
+项目名称：爱嵊州
 //要评论的内容
 const content = '爱嵊州,书写美好'
-
-const $ = new Env("爱嵊州")
+cron: 18 9,18 * * *
+const $ = new Env("113-爱嵊州")
 const author = '爱嵊州';
 //加载推送消息模块,青龙自带的具体看sendNotify文件和配置文件config.sh
 const notify = require("./sendNotify");
 
 //通知控制,1发送, 0不发送
-const get_msg = 0
+const get_msg = 1
 
 //是否多号并发.true=并发,false=不并发
 const Concurrency = true
