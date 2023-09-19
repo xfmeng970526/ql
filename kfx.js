@@ -11,7 +11,9 @@
 后续看情况更新自动兑换
 
 青龙自己捉包，找fscrm.kraftheinz.net.cn的包，把header里的token填到变量kfxtoken里，多账户换行或者@或&隔开
-
+cron: 9 5,18 * * *
+new Env('124-卡夫亨氏新厨艺');
+项目名称：卡夫亨氏新厨艺
 V2P/圈X：
 [task_local]
 #卡夫享
