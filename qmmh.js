@@ -4,8 +4,9 @@
 抓包查看域名  task.3456mh.com   请求头access-token
 变量mhcookie
 
-定时 corn 0 8 * * *
-
+cron: 2 8,21 * * *
+new Env('8-全民漫画');
+项目名称：全民漫画
 一天一次
 
 
