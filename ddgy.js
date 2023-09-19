@@ -18,10 +18,12 @@ uid其实不重要，只是用来区分token所属的账号，方便重写。手
 多账号换行或者@隔开，重写多账号直接换号捉就行
 export ddgyToken='uid&token'
 
+cron: 28 0,8,12,18 * * *
+new Env('123-滴滴果园');
+项目名称：滴滴果园
 重写：
 [task_local]
-#滴滴果园
-28 0,8,12,18 * * * https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ddgy.js, tag=滴滴果园, enabled=true
+https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ddgy.js, tag=滴滴果园, enabled=true
 [rewrite_local]
 https://game.xiaojukeji.com/api/game/plant/enter url script-request-header https://raw.githubusercontent.com/leafTheFish/DeathNote/main/ddgy.js
 [MITM]
