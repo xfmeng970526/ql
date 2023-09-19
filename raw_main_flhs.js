@@ -20,9 +20,10 @@ https://raw.githubusercontent.com/YaphetS0903/JStest/main/YaphteS0903.boxjs.json
 export flhsCookie='抓取的Cookie1@抓取的Cookie2'
 圈X配置如下，其他自行测试
 一小时运行一次即可
-[task_local]
-#返利好省
-0 8-23 * * * https://raw.githubusercontent.com/YaphetS0903/JStest/main/flhs.js, tag=返利好省, enabled=true
+cron: 4 4,22 * * *
+new Env('10-返利好省');
+项目名称：返利好省
+https://raw.githubusercontent.com/YaphetS0903/JStest/main/flhs.js, tag=返利好省, enabled=true
 [rewrite_local]
 #返利好省
 https://api.uutequan.com/v1/welfare/page url script-request-header https://raw.githubusercontent.com/YaphetS0903/JStest/main/flhs.js
