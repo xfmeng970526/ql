@@ -3,7 +3,9 @@
 
 格式：export dyjsb="sessionid=xxxx&deviceid=xxxxx&iid=xxxx"  多账号换行隔开
 
-cron 32 0/30 * * ?
+cron: * 37 0-23 * * *
+new Env('104-抖音极速版');
+项目名称：抖音极速版
 
 */
 
