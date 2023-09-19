@@ -4,7 +4,8 @@
 # -------------------------------
 # cron "30 5 * * *" script-path=xxx.py,tag=匹配cron用
 # const $ = new Env('阿里云盘签到');
-
+# cron: 25 2,21 * * *
+# new Env('126-阿里云盘签到');
 import json
 import  requests
 import  os
