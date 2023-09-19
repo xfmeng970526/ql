@@ -15,8 +15,10 @@ https://service-yy.jconnect.faw-vw.com/redpackbank/user url script-request-body 
 
 [mitm]
 hostname = service-yy.jconnect.faw-vw.com
-
-0 6 * * * https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js
+cron: 18 6,15 * * *
+new Env('116-捷达');
+项目名称：捷达
+https://raw.githubusercontent.com/liuqi6968/-/main/jetta.js
 
  变量  JETTA_token
  多账号@分割
