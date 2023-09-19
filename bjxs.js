@@ -7,7 +7,8 @@
 变量
 export bjxshd='XXXXXXX'
 多号@或换行
-corn 0 0 * * * bjxs.js
+cron: 25 2,17,21 * * *
+new Env('52-蕉免费小说');
 ============================================
 圈X
  重写
@@ -18,7 +19,7 @@ corn 0 0 * * * bjxs.js
 https://novel.vpquc9rn.com/api/task/bajiaoRemind url script-request-header http://nm6.xyz:20080/ningmeng/ningmeng/raw/branch/main/bjxs.js
 */
 //[task_local]
-//0 */1 * * * http://nm6.xyz:20080/ningmeng/ningmeng/raw/branch/main/bjxs.js, tag=八蕉免费小说, enabled=true
+http://nm6.xyz:20080/ningmeng/ningmeng/raw/branch/main/bjxs.js, tag=八蕉免费小说, enabled=true
 
 
 const $ = new Env('八蕉免费小说');
