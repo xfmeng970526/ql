@@ -1,7 +1,8 @@
 /**
  * 今日南浔
- * cron 10 7 * * *  jrnx.js
- *
+ * cron: 18 7,21 * * *
+ * new Env('35-今日南浔');
+ * 项目名称：今日南浔
  * https://app.tmuyun.com/webChannels/invite?inviteCode=J8YDP9&tenantId=11&accountId=637b7334b77d2e7e53f07937
  * 
  * 22/11/25 执行签到,阅读,点赞,分享,本地服务
