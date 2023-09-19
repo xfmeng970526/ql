@@ -6,6 +6,8 @@
 # const $ = new Env('蜜雪冰城');
 # 环境变量名 MXBC_TOKEN 多账号用#隔开   
 # pyhton依赖 先安装 wheel requests  pycryptodome
+# new Env('51-蜜雪冰城');
+# 项目名称：蜜雪冰城
 # -------------------------------
 from requests import get
 from Crypto.PublicKey import RSA
