@@ -1,4 +1,6 @@
 /**
+ cron: 12 10,19 * * *
+ new Env('91-掌上庆元');
  日期：2023-2-24
  软件：https://h5.cztv.com/qingyuan/h5/invitateCode?nickname=176****9907&code=XC8TLX
  功能：全部
