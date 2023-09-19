@@ -8,7 +8,7 @@
  * 项目抓包：复制/luckycat/aweme/v1/task/done/excitation_ad?后面的值，后面的值#cookie#x-argus#x-ladon#user-agent
  * 项目变量：lekebo_dyjsb_Cookie
  * 项目定时：每30分钟运行一次
- * 定时规则: * 25 0-23 * * *
+ * 定时规则: * 30 0-23 * * *
  * 
  * 版本功能: 签到、宝箱、广告、步数、直播、搜索、小岛、种殖、农场、刷视频、兑换、乐园抽奖，后期会完善待增加的功能
  * 
@@ -18,8 +18,9 @@
  * 
  * 交流Q群：104062430 作者:乐客播 欢迎前来提交bug
  */
-
-const $ = new Env("抖音极速版-宝箱");
+cron: * 30 0-23 * * *
+new Env('104-抖音极速版-宝箱');
+项目名称：抖音极速版-宝箱
 //-------------------- 一般不动变量区域 -------------------------------------
 const notify = $.isNode() ? require("./sendNotify") : "";
 const CryptoJS = require("crypto-js");
