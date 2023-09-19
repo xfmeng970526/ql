@@ -6,6 +6,9 @@
 找到Cookie里的 sessionid值就可以。
 变量 jrttckapp   对应账号数据
 多账号@分割
+cron: 18 10,21 * * *
+new Env('118-今日头条_坏');
+项目名称：今日头条 
 */
 const $ = new Env('今日头条');
 
