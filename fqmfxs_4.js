@@ -1,6 +1,9 @@
 /*
 @蛋炒饭
 APP：番茄免费小说
+cron: 18 8-22 * * *
+new Env('71-番茄免费小说');
+项目名称：番茄免费小说
 完成：签到、签到翻倍、开宝箱、宝箱翻倍、看广告视频、领取三餐奖励、三餐奖励翻倍、领取阅读时长奖励
 变量名：fqmfxsck
 安卓抓包：https://i-hl.snssdk.com/luckycat开头的，在cookie里面找到sessionid，在url里面找到iid和device_id，将sessionid#iid#device_id填入变量，多账号@隔开。
