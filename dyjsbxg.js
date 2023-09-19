@@ -1,6 +1,8 @@
 /**
  * 抖音极速版，按理来说只需要传sessionid就行
- * 定时格式： cron 32 0/30 * * ?
+ * cron: * 30 0-23 * * *
+ * new Env('104-抖音极速版');
+ * 项目名称：抖音极速版
  * 变量名 dyjsbck
  * 格式：export dyjsbck="sessionid=xxxx&device_id=xxxxx&iid=xxxx"  
  * sessionid必填，device_id和iid实在抓不到不填应该问题不大
