@@ -9,6 +9,9 @@ export jktthd='手机号&密码'
 每天一次就可以。
 
 */
+cron: 11 11,21 * * *
+new Env('39-健康头条');
+项目名称：健康头条
 const $ = new Env('健康头条');
 const axios = require('axios');
 let request = require("request");
