@@ -22,11 +22,14 @@ https://raw.githubusercontent.com/YaphetS0903/JStest/main/YaphteS0903.boxjs.json
 环境配置(@隔开，json格式)
 export flgReferer='抓取的Referer1@抓取的Referer2'
 圈X配置如下，其他自行测试，运行一次即可
+cron: 7 11,18 * * *
+new Env('118-返利购');
+项目名称：返利购
 
 请务必在早上7-9点之间运行脚本
 [task_local]
 #返利购
-0,30 8 * * * https://raw.githubusercontent.com/YaphetS0903/JStest/main/flg.js, tag=返利购, enabled=true
+https://raw.githubusercontent.com/YaphetS0903/JStest/main/flg.js, tag=返利购, enabled=true
 [rewrite_local]
 #返利购
 https://api.flgflg.com/htmmall/api/gold/finishedVideoNum url script-request-body https://raw.githubusercontent.com/YaphetS0903/JStest/main/flg.js
