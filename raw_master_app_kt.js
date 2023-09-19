@@ -13,6 +13,8 @@
 
 一天最少跑8小时,间隔是1小时
 cron 25 6-15 * * *
+new Env('15-可推');
+项目名称：可推
 
 脚本地址:https://gitee.com/soy-tool/app-script/raw/master/app_kt.js
 
