@@ -6,7 +6,9 @@
 export qngyhd=''
 
 多账号换行或者@隔开
-
+cron: 7 7,18 * * *
+new Env('46-启牛果园');
+项目名称：启牛果园
 */
 const $ = new Env("启牛果园")
 
