@@ -5,8 +5,11 @@
 需要zqkdCookie，自己捉包填写，多账号@隔开，格式：
 uid=12345678&zqkey=xxxxxx&zqkey_id=yyyyyyy@uid=87654321&zqkey=zzzzzzzz&zqkey_id=aaaaaa
 
+
 cron: 50 21 * * *
-const $ = new Env('中青看点-任务奖励');
+new Env('132-中青看点-任务奖励');
+项目名称：中青看点-任务奖励
+
 */
 const jsname = '中青看点任务奖励'
 const $ = Env(jsname)
