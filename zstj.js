@@ -1,5 +1,8 @@
 /*
 APP：掌上天津极速版
+cron: 26 9,19 * * *
+new Env('92-掌上天津极速版');
+项目名称：掌上天津极速版
 HOST:bbs.zaitianjin.net
 export zstjhd='userId&salf'
 */
