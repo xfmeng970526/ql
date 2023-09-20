@@ -1,8 +1,8 @@
 /*
-jzack
-
 掌上瓯海  一天600积分左右
-
+cron: 26 10,20 * * *
+new Env('18-掌上瓯海');
+项目名称：掌上瓯海
 抓包 newsapi.wzrb.com.cn 域名 Authorization的值 填入 变量 swZS里面 多账户 @ 或者 回车分割
 
 变量示例 7557206663AD0927A8XXXXXXXX   旧版没问题则不需要更新   新版去掉Bearer 只要 Authorization的 Bearer后面的值
