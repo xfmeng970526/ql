@@ -6,7 +6,9 @@
 uid=12345678&zqkey=xxxxxx&zqkey_id=yyyyyyy@uid=87654321&zqkey=zzzzzzzz&zqkey_id=aaaaaa
 
 cron: 4-59/15 11-18 * * *
-const $ = new Env('中青看点-自动阅读');
+new Env('132-中青看点自动阅读');
+项目名称：中青看点-自动阅读
+
 */
 const jsname = '中青看点文章视频'
 const $ = Env(jsname)
