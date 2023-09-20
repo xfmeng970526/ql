@@ -7,6 +7,9 @@
 
 频道: https://t.me/+O6-uZI3t6uhhMmU1
 投稿群: https://t.me/+aR-68_3PHE1lYzU9
+cron: 20 5,19 * * *
+new Env('81-美步App');
+项目名称：美步App
 */
 
 const $ = new Env("美步");
