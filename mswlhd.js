@@ -3,6 +3,9 @@
 抓包域名jde.mtbcpt.com
 查看请求文本openId
 export mswlhd=''
+cron: 26 10,19 * * *
+new Env('121-麦斯威尔福利社');
+项目名称：麦斯威尔福利社
 多号@或换行
 */
 const $ = new Env('麦斯威尔福利社');
