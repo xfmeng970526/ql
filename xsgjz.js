@@ -1,6 +1,7 @@
 #变量xsgCookie，抓取小时工记账的authorization变量
-#定时调成5 6-18/6 * * *
-
+cron: 5 6-18/6 * * *
+new Env('68-小时工记账');
+项目名称：小时工记账
 from cgitb import text
 import json
 import time
