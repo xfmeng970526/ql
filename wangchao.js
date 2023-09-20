@@ -1,6 +1,8 @@
 /**
  * 望潮
- * cron 12 12 * * *  wangchao.js
+ * cron: 25 9,14 * * *
+ * new Env('107-望潮');
+ * 项目名称：望潮
  * ========= 青龙--配置文件 ===========
  * # 项目名称
  * export wangchao_data='token @ token'
