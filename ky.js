@@ -1,4 +1,8 @@
 /*
+cron: 26 9,19 * * *
+new Env('57-快牙');
+项目名称：快牙
+
 export kyhd='x-userid&x-ck'
 */
 const $ = new Env('快牙');
