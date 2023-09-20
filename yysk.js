@@ -6,7 +6,9 @@ shike.com 抓包的域名。。
 格式 od=aaaaaaaaaa@od=bbbbbbbbbbbb
 变量 yyskapp   对应账号数据
 一天跑个五次吧。。
-
+cron: 3 6,19 * * *
+new Env('5-应用试客');
+项目名称：应用试客
 
 */
 const $ = new Env('应用试客');
