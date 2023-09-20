@@ -3,9 +3,11 @@
 无限刷金币
 搜索 done/excitation_ad/ 抓该接口的url(...done/excitation_ad/?后的url)、cookie 、argus、ladon
 cookies格式 wkck = "url#cookie#argus#ladon"
-8.3 今日头条刷视频，新增部分任务，不黑一天4块左右
+8.3 悟空浏览器自用版，新增部分任务，不黑一天4块左右
 bug提交 https://t.me/jiangyutck
-
+cron: 4 2-23/1 * * *
+new Env('134-悟空浏览器自用版');
+项目名称：悟空浏览器自用版
 """
 import requests,secrets,time,hashlib,string,random,json,os,sys
 import datetime
