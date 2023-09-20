@@ -1,7 +1,8 @@
 /**
  * 掌上鹿城
- * cron 25 10 * * *  zslc.js
- *
+ * cron: 25 9,14 * * *
+ * new Env('18-掌上鹿城');
+ * 项目名称：掌上鹿城
  * 注册地址：https://appshare.66lc.com/webChannels/invite?inviteCode=HNQSC9&tenantId=28&accountId=647b32668bee4a66b9b1e82b
  * 
  * 23/06/03 执行签到,阅读,点赞,分享,本地服务 增加评论 延迟
