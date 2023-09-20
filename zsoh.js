@@ -1,7 +1,8 @@
 /**
  * 掌上瓯海
- * cron 25 10 * * *  zsoh.js
- *
+ * cron: 25 10,18 * * *
+ * new Env('18-掌上瓯海');
+ * 项目名称：掌上瓯海
  * 注册地址：https://app.ohnews.cn/webChannels/invite?inviteCode=HT6RK9&tenantId=78&accountId=647addefa7fd3962fa8466a4
  * 
  * 23/06/03 执行签到,阅读,点赞,分享,本地服务 增加评论 延迟
