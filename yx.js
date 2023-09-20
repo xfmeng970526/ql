@@ -1,7 +1,8 @@
 /**
  * 鄞响
- * cron 25 10,20 * * *  yx.js
- *
+ * * cron: 25 10,15 * * *
+ * new Env('32-鄞响');
+ * 项目名称：鄞响
  * https://app.tmuyun.com/webChannels/invite?inviteCode=J8YS49&tenantId=61&accountId=637b72beb77d2e7e53f075fb
  * 
  * 22/11/27 执行签到,阅读,点赞,分享,本地服务 增加评论 延迟
