@@ -21,11 +21,10 @@ export yml_sytt_data='手机号&密码'
 =============变量解释==========
 手机号 密码 填入自己的数据就行
 =============变量获取==========
+
 cron: 4 5,19 * * *
 new Env('6-十堰头条');
 项目名称：十堰头条
-
-
 */
 const axios = require("axios");
 const qs = require("qs");
