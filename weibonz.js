@@ -4,6 +4,9 @@
 变量
 export weibonzhd=''
 多号@或换行
+cron: 3 9,14 * * *
+new Env('44-微博年终购物清单');
+项目名称：微博年终购物清单
 */
 const $ = new Env('微博年终购物清单');
 const axios = require('axios');
