@@ -1,3 +1,6 @@
+cron: 25 10,18 * * *
+new Env('18-掌上瓯海库存监控');
+项目名称：掌上瓯海库存监控
 const jsname = "掌上瓯海库存监控";
 const $ = Env(jsname);
 const notify = $.isNode() ? require("./sendNotify") : "";      // 这里是 node（青龙属于node环境）通知相关的
