@@ -4,7 +4,9 @@
 变量：捉包https://dict.youdao.com域名headers里的cookie
 
 格式：export ydcd="ck=xxxx"  多账号换行隔开
-
+cron: 3 9,14 * * *
+new Env('79-有道词典');
+项目名称：有道词典
 脚本发布频道: https://t.me/+O6-uZI3t6uhhMmU1
 */
 
