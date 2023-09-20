@@ -1,7 +1,8 @@
 /**
  * 天瑞地安
- * 执行时间： 25 10,16 * * *  天瑞地安.js
- * const $ = new Env("天瑞地安");
+ * cron: 25 9,14 * * *
+ * new Env('128-天瑞地安');
+ * 项目名称：天瑞地安
  * 注册地址：https://app.tmuyun.com/webChannels/invite?inviteCode=WACP6P&tenantId=48&accountId=64d71e1cd63fea0dca5d666e
  * ========= 青龙--配置文件 ===========
  * # 天瑞地安（配置方式二选一）
