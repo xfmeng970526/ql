@@ -4,9 +4,12 @@ APP：牙e家
 export yayihd='手机号&密码'
 多号@或换行隔开
 10话费
+cron: 3 9,14 * * *
+new Env('45-牙e家');
+项目名称：牙e家
 */
 
-const $ = new Env('牙e家');
+const $ = new Env('45-牙e家');
 const axios = require('axios');
 let request = require("request");
 request = request.defaults({
