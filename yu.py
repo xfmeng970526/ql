@@ -5,7 +5,9 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import logging
 import json
-
+cron: 3 9,14 * * *
+new Env('102-雨云');
+项目名称：雨云
 ''''脚本使用说明：
  后缀名改成py
  
@@ -153,8 +155,8 @@ class RainYun():
 if __name__ == '__main__':
     accounts = [
         {
-            "user": "17788032301",  # 账户
-            "password": "ff123456789"  # 密码
+            "user": "账户",  # 账户
+            "password": "密码"  # 密码
         }
     ]
     for acc in accounts:
