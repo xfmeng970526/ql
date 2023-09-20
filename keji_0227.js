@@ -6,7 +6,9 @@
  * 走下链接
    https://h5.scimall.org.cn/user/register?invite_from=5&invite_uid=SRf8J
  * 科技工作者之家APP
- * 
+ * cron: 26 8,19 * * *
+ * new Env('88-科技工作者之家');
+ * 项目名称：科技工作者之家
  * 
  * ========= 青龙--配置文件 =========
  * 先手动进APP开启连签180天活动，并且自己创建一个部落,抓包拿到自己部落的group_id
