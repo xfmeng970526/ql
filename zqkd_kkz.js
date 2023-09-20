@@ -6,8 +6,10 @@
 需要zqkdCookie，自己捉包填写，多账号@隔开，格式：
 uid=12345678&zqkey=xxxxxx&zqkey_id=yyyyyyy@uid=87654321&zqkey=zzzzzzzz&zqkey_id=aaaaaa
 
-cron: 2 2,15 * * *
-const $ = new Env('中青看点-看看赚');
+cron: 10 2,17 * * *
+new Env('132-中青看点-看看赚');
+项目名称：中青看点-看看赚
+
 */
 const jsname = '中青看点看看赚'
 const $ = Env(jsname)
