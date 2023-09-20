@@ -1,5 +1,7 @@
 /*
-  cron 51 9 * * * juejin_signin.js
+  cron: 26 9,19 * * *
+  new Env('3-掘金社区');
+  项目名称：掘金社区
   掘金社区
   更新时间:2021-09-06
   活动入口：https://juejin.cn/user/center/signin
