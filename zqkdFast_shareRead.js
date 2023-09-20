@@ -2,6 +2,9 @@
 安卓：中青看点极速版 分享阅读 （快应用，非IOS极速版，跟普通版青豆数据独立，普通版黑了也可以用）
 邀请链接：https://user.youth.cn/h5/fastAppWeb/invite/invite_ground.html?share_uid=1037640800&channel=c8000&nickname=%E5%A4%9A%E5%A4%9A%E7%8B%97&avatar=http%3A%2F%2Fres.youth.cn%2Favatar_202201_05_05x_61d4fc932c6361037637302w.jpg&v=1641351700
 脚本地址：https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkdFast/zqkdFast_shareRead.js
+cron: 30 7,21 * * *
+new Env('65-中青看点极速版-分享阅读');
+项目名称：中青看点极速版-分享阅读
 
 支持快应用的安卓手机才能玩
 
