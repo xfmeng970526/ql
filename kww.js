@@ -9,9 +9,11 @@
  定时：一天一次
 脚本兼容: QuantumultX, Surge,Loon, JSBox, Node.js
 =================================Quantumultx=========================
-[task_local]
-#微信小程序-口味王
-0 40 0 * * * https://github.com/JDWXX/jd_job.git, tag=微信小程序-口味王, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+
+cron: 26 7,19 * * *
+new Env('22-口味王');
+项目名称：口味王
+https://github.com/JDWXX/jd_job.git, tag=微信小程序-口味王, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 =================================Loon===================================
 [Script]
 cron "0 40 0 * * *" script-path=https://github.com/JDWXX/jd_job.git,tag=微信小程序-口味王
